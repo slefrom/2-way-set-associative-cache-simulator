@@ -1,9 +1,9 @@
 # 2-way-set-associative-cache-simulator
 
-compile with: g++ -std=c++17 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Werror cache.cpp -o cache && ./cache
+compile with: `g++ -std=c++17 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Werror cache.cpp -o cache && ./cache`
 
 output:
-
+```text
 sets: 256, ways: 2, offset bits: 6, index bits: 8
 
 -- linear walk --
@@ -21,5 +21,8 @@ misses:     300
 evictions:  298
 writebacks: 99
 hit rate:   0.00%
+```
+
+ill update readme later
 
 ill update readme later
